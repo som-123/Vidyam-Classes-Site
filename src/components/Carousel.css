@@ -12,9 +12,51 @@
     object-fit: cover;
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 800px) {
+    .carousel-container{
+      width: 90%;
+      margin-left: 70px;
+    }
     .carousel .slide img {
       max-height: 50vh;
+    }
+  }
+
+  @media (max-width: 700px) {
+    .carousel-container{
+      width: 90%;
+      margin-left: 80px;
+    }
+  }
+  @media (max-width: 660px) {
+    .carousel-container{
+      width: 80%;
+      margin-left: 130px;
+    }
+  }
+  @media (max-width: 600px) {
+    .carousel-container{
+      width: 80%;
+      margin-left: 180px;
+    }
+  }
+
+  @media (max-width: 550px) {
+    .carousel-container{
+      width: 70%;
+      margin-left: 250px;
+    }
+  }
+  @media (max-width: 500px) {
+    .carousel-container{
+      width: 70%;
+      margin-left: 150px;
+    }
+  }
+  @media (max-width: 400px) {
+    .carousel-container{
+      width: 70%;
+      margin-left: 170px;
     }
   }
   

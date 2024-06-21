@@ -5,6 +5,7 @@ import Home from './components/Home';
 import Programs from './components/Programs';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Quotes from './components/Quotes';
 import './App.css';
 
 const App = () => (
@@ -15,6 +16,7 @@ const App = () => (
       <Route path="/programs" element={<Programs />} />
       <Route path="/contact" element={<Contact />} />
     </Routes>
+    <Quotes />
     <Footer />
   </Router>
 );

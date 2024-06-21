@@ -62,13 +62,13 @@
   }
   @media (max-width: 600px) {
     .courses-grid {
-      margin-left: 120px;
+      margin-left: 170px;
     }
   }
   @media (max-width: 500px) {
     .courses-grid {
       grid-template-columns: 1fr;
-      margin-left: 200px;
+      margin-left: 80px;
     }
     .courses-grid .course-card{
       width: 70%;

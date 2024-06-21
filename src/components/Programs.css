@@ -1,5 +1,7 @@
 .programs {
     padding: 2rem;
+    margin-top: 3rem;
+
   }
   
   .class-courses {
@@ -17,4 +19,44 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
   }
+
+  @media (max-width: 1200px) {
+    .programs{
+      padding-left: 150px;
+    }
+  }
   
+  @media (max-width: 1050px) {
+    .programs{
+      padding-left: 220px;
+    }
+  }
+  @media (max-width: 900px) {
+    .programs{
+      padding-left: 40px;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .programs{
+      padding-left: 100px;
+    }
+  }
+  @media (max-width: 650px) {
+    .programs{
+      padding-left: 200px;
+    }
+    .class-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media (max-width: 500px) {
+    .programs{
+      padding-left: 130px;
+    }
+  }
+  @media (max-width: 420px) {
+    .programs{
+      padding-left: 150px;
+    }
+  }

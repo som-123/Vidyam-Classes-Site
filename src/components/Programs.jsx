@@ -42,7 +42,7 @@ const Programs = () => (
                 </div>
             </div>
         </div>
-        <Quotes />
+        
     </div>
 
 );
