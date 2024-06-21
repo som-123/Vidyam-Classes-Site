@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Oswald:wght@200..700&family=Roboto+Slab:wght@100..900&display=swap');
+.quotes {
+    padding: 2rem 6rem;
+    text-align: center;
+    background-color: #ebedfc;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  
+  .quotes-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem 10rem;
+  }
+
+  .quotes-grid div {
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  .quotes-grid div h3 {
+    color: #192a88;
+    font-size: 25px;
+  }
+  .quotes-grid div p {
+    font-size: 18px;
+    font-weight: 350;
+  }
+  .quotes-grid img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  @media (max-width: 1200px) {
+    .quotes {
+      margin-left: 100px;
+    }
+  }
+  @media (max-width: 900px) {
+    .quotes-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .quotes {
+      margin-left: 0px;
+    }
+  }
+  @media (max-width: 600px) {
+    .quotes{
+      margin-left: 100px;
+    }
+  }
+  @media (max-width: 500px) {
+    .quotes {
+      margin-left: 80px;
+    }
+    .quotes-grid {
+      grid-template-columns: 1fr;
+    }
+  } 

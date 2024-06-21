@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+.why-choose-us {
+  padding: 2rem 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  
+  .points-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    width: 100%;
+    max-width: 1200px; 
+  }
+  h2{
+    font-size: 60px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal   
+  }
+  .points-grid div {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 30px;
+    padding: 1rem;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+  }
+
+  @media (max-width: 768px) {
+    .why-choose-us {
+      margin-left: 50px;
+    }
+    .why-choose-us h2 {
+      font-size: 50px;
+    }
+    .points-grid {
+      grid-template-columns: 1fr; /* Single column layout for tablets */
+    }
+  }
+
+  @media (max-width: 650px) {
+    .why-choose-us {
+      margin-left: 100px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .why-choose-us {
+      padding: 1rem;
+      margin-left: 200px;
+    }
+  
+    .why-choose-us h2 {
+      font-size: 40px;
+    }
+  
+    .point-grid div{
+      font-size: 25px;
+    }
+  }
+  
