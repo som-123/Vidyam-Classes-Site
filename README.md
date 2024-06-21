@@ -1,70 +1,40 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Vidyam-Classes-Site
 
-## Available Scripts
+This is a React-based website for Vidyam Classes, featuring an interactive navbar, dynamic body sections, and a comprehensive footer. The site is designed to provide a seamless user experience and showcase the offerings of Vidyam Classes.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Interactive Navbar:** A responsive navigation bar that appears on scroll and includes links to Home, Programs, and Contact Us.
+- **Carousel:** A dynamic carousel with 4 images, featuring hover effects for navigation arrows and slide indicators.
+- **Why Choose Us Section:** A content section explaining why Vidyam Classes is the best choice, using a CSS grid layout.
+- **Courses Section:** Displaying 4 courses in a CSS grid layout.
+- **Programs Section:** Detailed sections for Class 11 and Class 12 courses.
+- **Quotes Section:** Featuring quotes from famous personalities, displayed in a CSS grid layout.
+- **Footer:** A footer containing quick links, contact information, and social media links.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+Step 1: Clone the Repository
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+  git clone https://github.com/som-123/Vidyam-Classes-Site.git
+  cd Vidyam-Classes-Site
+```
 
-### `npm run build`
+Step 2: Install important dependencies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+    npm install
+``` 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Step 3: Run the Site.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+    npm start
+```
 
-### `npm run eject`
+## Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+After completing the installation steps, the site will be available at `http://localhost:3000` Open this URL in your browser to view and interact with the site.
